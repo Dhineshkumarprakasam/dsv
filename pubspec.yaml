@@ -1,0 +1,49 @@
+name: dsv
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Core encryption
+  cryptography: ^2.9.0
+  
+  # File handling
+  file_picker: ^10.3.10
+  path_provider: ^2.1.5
+  
+  # PDF viewing
+  pdfx: ^2.9.2
+  
+  # Deep linking
+  app_links: ^6.3.2
+  
+  # File sharing
+  share_plus: ^10.0.0
+  
+  # Google Fonts - for easy font integration
+  google_fonts: ^6.2.1
+
+  # The following adds the Cupertino Icons font to your application.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+
+flutter:
+  uses-material-design: true
+  
+  # No need to manually add fonts when using google_fonts package!
